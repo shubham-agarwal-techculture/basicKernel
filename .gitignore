@@ -1,0 +1,28 @@
+# ----- Build artifacts ---------------------------------------------
+*.o
+*.obj
+kernel.bin
+simpleos.iso
+
+# ----- ISO staging directory ---------------------------------------
+isodir/
+
+# ----- Temporary / editor files ------------------------------------
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ----- IDE / editor folders ----------------------------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ----- QEMU runtime files ------------------------------------------
+*.log
+hda.img
